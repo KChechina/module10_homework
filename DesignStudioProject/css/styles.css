@@ -184,6 +184,7 @@ h1,h2,h3,h4,h5,h6 {font-size: inherit; font-weight: 400;}
 .projects {
     background: #131313;
     min-height: 1074px;
+    margin-top: -1px;
 }
 .projects__container {
     margin-left: 42px;
@@ -957,6 +958,7 @@ input::placeholder {
 }
 
 .questions__conditions {
+    display: flex;
     margin-top: 46px;
 }
 .qbutton {
@@ -1054,6 +1056,7 @@ input::placeholder {
     }
     .card__img {
         margin-top: 30px;
+        margin-bottom: 30px;
     }
     .card__slider {
         justify-content: center;
@@ -1087,6 +1090,7 @@ input::placeholder {
     .map__picture {
         max-width: 550px;
     }
+
 }
 
 @media (max-width:768px){
@@ -1136,6 +1140,9 @@ input::placeholder {
     .intro__button_application{
         margin-left: 0;
     }
+    .projects{
+        min-height: 780px;
+    }
     .projects__card{
         margin-top: 0;
         padding-top: 52px;
@@ -1177,6 +1184,9 @@ input::placeholder {
     .request__data::placeholder{
         color: #FFFFFF;
     }
+    .request__conditions{
+        padding-bottom: 20px;
+    }
     .examples__photo {
         display: none;
     }
@@ -1185,6 +1195,9 @@ input::placeholder {
     }
     .examples__title{
         text-align: center;
+    }
+    .questions__conditions{
+        display: flex;
     }
 }
 
@@ -1368,7 +1381,6 @@ input::placeholder {
         min-width: 39px;
         margin-bottom: 49px;
     }
-
     .footer{
         display: none;
     }
